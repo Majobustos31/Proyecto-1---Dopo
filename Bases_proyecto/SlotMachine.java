@@ -7,42 +7,34 @@ public class SlotMachine
 
     public SlotMachine()
     {
-        
     }
 
     public void addWheel(int pos)
     {
-        
     }
 
     public void delWheel(int pos)
     {
-        
     }
 
     public void addSymbol(int pos, String color)
     {
-        
     }
 
     public void delSymbol(String symbol)
     {
-        
     }
 
     public void placeSymbol(int wheel, String symbol)
     {
-        
     }
 
     public void spin(int wheel)
     {
-        
     }
 
     public void spin()
     {
-        
     }
 
     public String[] symbols()
@@ -67,17 +59,14 @@ public class SlotMachine
 
     public void makeVisible()
     {
-        
     }
 
     public void makeInvisible()
     {
-        
     }
 
     public void exit()
     {
-        
     }
 
     public boolean ok()
@@ -87,6 +76,5 @@ public class SlotMachine
 
     private void showError(String message)
     {
-        
     }
 }
