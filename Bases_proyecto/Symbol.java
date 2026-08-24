@@ -1,3 +1,4 @@
+
 public class Symbol
 {
     private String name;
