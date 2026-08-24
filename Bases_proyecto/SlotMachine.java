@@ -1,6 +1,7 @@
 import java.util.ArrayList;
 import javax.swing.JOptionPane;
 
+
 public class SlotMachine
 {
     private ArrayList<Wheel> wheels;
