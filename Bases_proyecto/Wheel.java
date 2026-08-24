@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 
+
 public class Wheel
 {
     private ArrayList<Symbol> symbols;
