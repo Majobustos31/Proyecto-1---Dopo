@@ -149,4 +149,75 @@ public class SlotMachineC2Test
 
         assertNotNull(machine.configuration());
     }
+    
+    @Test
+    /** 
+       * Verifica que la maquina pueda quedar 
+       * en una configuracion * 
+       * solicitada cuando los simbolos existen en todas las ruedas. 
+    */
+    public void accordingIbPoShouldSetValidConfiguration()
+    {
+        SlotMachine slotMachine = new SlotMachine();
+    
+        slotMachine.addWheel(0);
+        slotMachine.addWheel(1);
+        slotMachine.addWheel(2);
+    
+        slotMachine.addSymbol(0, "red");
+        slotMachine.addSymbol(0, "blue");
+    
+        slotMachine.addSymbol(1, "red");
+        slotMachine.addSymbol(1, "blue");
+    
+        slotMachine.addSymbol(2, "red");
+        slotMachine.addSymbol(2, "blue");
+    
+        slotMachine.setConfiguration(
+            new String[]{"blue", "red", "blue"}
+        );
+    
+        String[] configuration = slotMachine.configuration();
+    
+        assertEquals("blue", configuration[0]);
+        assertEquals("red", configuration[1]);
+        assertEquals("blue", configuration[2]);
+    }
+    @Test
+    /** 
+        * Verifica que una configuracion con un numero 
+        * incorrecto * de simbolos no modifique 
+        * la configuracion actual 
+    */
+    public void accordingIbPoShouldNotChangeConfigurationWithWrongSize()
+    {
+        SlotMachine slotMachine = new SlotMachine();
+    
+        slotMachine.addWheel(0);
+        slotMachine.addWheel(1);
+        slotMachine.addWheel(2);
+    
+        slotMachine.addSymbol(0, "red");
+        slotMachine.addSymbol(0, "blue");
+    
+        slotMachine.addSymbol(1, "red");
+        slotMachine.addSymbol(1, "blue");
+    
+        slotMachine.addSymbol(2, "red");
+        slotMachine.addSymbol(2, "blue");
+    
+        slotMachine.setConfiguration(
+            new String[]{"red", "red", "red"}
+        );
+    
+        String[] before = slotMachine.configuration();
+    
+        slotMachine.setConfiguration(
+            new String[]{"blue", "blue"}
+        );
+    
+        String[] after = slotMachine.configuration();
+    
+        assertArrayEquals(before, after);
+    }
 }
