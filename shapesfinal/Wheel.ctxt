@@ -1,0 +1,35 @@
+#BlueJ class context
+#Sun Sep 20 23:26:22 COT 2026
+comment0.target=Wheel
+comment0.text=\r\n Representa una rueda de la maquina tragamonedas.\r\n
+comment1.target=Wheel()
+comment1.text=\r\n Crea una rueda vacia.\r\n
+comment10.target=boolean isFixed()
+comment10.text=\r\n Indica si la rueda esta fijada.\r\n @return true si esta fijada.\r\n
+comment11.target=Symbol getPreviousSymbol()
+comment12.target=Symbol getNextSymbol()
+comment13.target=int getPosition()
+comment13.text=Retorna el \u00EDndice visible actual.
+comment14.params=winX winY winW winH
+comment14.target=void drawInWindow(int, int, int, int)
+comment2.params=symbol
+comment2.target=void addSymbol(Symbol)
+comment2.text=\r\n Agrega un simbolo a la rueda.\r\n @param symbol simbolo que se desea agregar.\r\n
+comment3.params=name
+comment3.target=boolean removeSymbol(java.lang.String)
+comment3.text=\r\n Elimina un simbolo de la rueda.\r\n @param name nombre del simbolo.\r\n @return true si se elimino, false si no existia.\r\n
+comment4.params=steps
+comment4.target=void spin(int)
+comment4.text=\r\n Gira la rueda el numero de pasos indicado.\r\n Si la rueda esta fijada, no gira.\r\n @param steps numero de pasos.\r\n
+comment5.target=Symbol getVisibleSymbol()
+comment5.text=\r\n Retorna el simbolo actualmente visible.\r\n @return simbolo visible o null si la rueda esta vacia.\r\n
+comment6.params=name
+comment6.target=int findSymbol(java.lang.String)
+comment6.text=\r\n Busca un simbolo por nombre.\r\n @param name nombre que se busca.\r\n @return posicion del simbolo o -1 si no existe.\r\n
+comment7.target=int getNumberSymbols()
+comment7.text=\r\n Retorna la cantidad de simbolos.\r\n @return numero de simbolos.\r\n
+comment8.target=void fix()
+comment8.text=\r\n Fija la rueda.\r\n
+comment9.target=void release()
+comment9.text=\r\n Suelta la rueda.\r\n
+numComments=15

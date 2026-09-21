@@ -1,0 +1,14 @@
+#BlueJ class context
+#Sun Sep 20 23:26:22 COT 2026
+comment0.target=Symbol
+comment1.params=name color
+comment1.target=Symbol(java.lang.String, java.lang.String)
+comment2.target=java.lang.String getName()
+comment3.target=java.lang.String getColor()
+comment4.target=int getSize()
+comment5.target=void makeVisible()
+comment6.target=void makeInvisible()
+comment7.params=x y
+comment7.target=void moveTo(int, int)
+comment7.text=\r\n Mueve el s\u00EDmbolo a una posici\u00F3n absoluta (x, y).\r\n Consulta la posici\u00F3n real del Circle antes de mover.\r\n
+numComments=8

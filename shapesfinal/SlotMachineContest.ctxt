@@ -1,0 +1,10 @@
+#BlueJ class context
+#Sun Sep 20 23:26:22 COT 2026
+comment0.target=SlotMachineContest
+comment1.params=machine
+comment1.target=int[] solve(java.lang.String[][])
+comment1.text=\r\n Resuelve el problema de la maraton.\r\n\r\n No utiliza SlotMachine.\r\n\r\n @param machine configuracion de las ruedas.\r\n @return numero de pasos que debe girar cada rueda.\r\n
+comment2.params=machine solution
+comment2.target=boolean simulate(java.lang.String[][], int[])
+comment2.text=\r\n Simula una solucion usando SlotMachine.\r\n\r\n @param machine configuracion inicial.\r\n @param solution pasos que debe girar cada rueda.\r\n @return true si se consigue el jackpot.\r\n
+numComments=3

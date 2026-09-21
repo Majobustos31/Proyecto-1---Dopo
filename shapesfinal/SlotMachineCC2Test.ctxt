@@ -1,0 +1,21 @@
+#BlueJ class context
+#Sun Sep 20 23:26:22 COT 2026
+comment0.target=SlotMachineCC2Test
+comment0.text=\r\n\r\n Pruebas unitarias complementarias del segundo ciclo\r\n de SlotMachine.\r\n
+comment1.target=SlotMachine createMachine()
+comment1.text=\r\n\r\n Crea una maquina usando las tres ruedas\r\n que ya existen en el constructor.\r\n
+comment2.target=void exchangeWheelsShouldExchangePositions()
+comment2.text=\r\n\r\n Prueba que se pueden intercambiar dos ruedas.\r\n
+comment3.target=void fixedWheelShouldNotSpin()
+comment3.text=\r\n\r\n Prueba que una rueda fijada no debe girar.\r\n
+comment4.target=void releasedWheelShouldSpin()
+comment4.text=\r\n\r\n Prueba que una rueda soltada vuelve a girar.\r\n
+comment5.target=void spinWithStepsShouldMoveExpectedNumberOfPositions()
+comment5.text=\r\n\r\n Prueba que una rueda gira el numero\r\n de pasos solicitado.\r\n
+comment6.target=void accordingIbPoShouldSetValidConfiguration()
+comment6.text=\r\n\r\n Prueba una configuracion valida.\r\n
+comment7.target=void accordingIbPoShouldNotChangeConfigurationWithWrongSize()
+comment7.text=\r\n\r\n Prueba que una configuracion con un numero\r\n incorrecto de posiciones no cambia la actual.\r\n
+comment8.target=void invalidSymbolShouldNotChangeConfiguration()
+comment8.text=\r\n\r\n Prueba que una configuracion con un simbolo\r\n que no existe no cambia la configuracion.\r\n
+numComments=9

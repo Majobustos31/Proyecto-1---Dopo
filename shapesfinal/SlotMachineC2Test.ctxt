@@ -1,0 +1,19 @@
+#BlueJ class context
+#Sun Sep 20 23:26:22 COT 2026
+comment0.target=SlotMachineC2Test
+comment0.text=\r\n\r\n Pruebas unitarias del segundo ciclo de SlotMachine.\r\n
+comment1.target=SlotMachine createMachine()
+comment1.text=\r\n\r\n Crea una maquina con las tres ruedas que\r\n ya vienen en el constructor de SlotMachine.\r\n
+comment2.target=void exchangeWheelsShouldExchangePositions()
+comment2.text=\r\n\r\n Prueba que se pueden intercambiar dos ruedas.\r\n
+comment3.target=void fixedWheelShouldNotSpin()
+comment3.text=\r\n\r\n Prueba que una rueda fijada no debe girar.\r\n
+comment4.target=void releasedWheelShouldSpin()
+comment4.text=\r\n\r\n Prueba que una rueda soltada vuelve a girar.\r\n
+comment5.target=void spinWithStepsShouldMoveExpectedNumberOfPositions()
+comment5.text=\r\n\r\n Prueba que una rueda gira exactamente\r\n el numero de pasos solicitado.\r\n
+comment6.target=void setConfigurationShouldSetRequestedConfiguration()
+comment6.text=\r\n\r\n Prueba que la maquina puede quedar\r\n en una configuracion especifica.\r\n
+comment7.target=void invalidConfigurationShouldNotBeAccepted()
+comment7.text=\r\n\r\n Prueba que una configuracion invalida\r\n no modifica la configuracion anterior.\r\n
+numComments=8
